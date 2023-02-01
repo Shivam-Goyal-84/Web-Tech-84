@@ -1,0 +1,102 @@
+.banner h1 {
+    border-top: 5px wheat solid;
+    font-size: 5rem;
+    padding: 1%;
+    margin: 0%;
+    color: wheat;
+    text-align: center;
+    background-color: black;
+    /* border: 10px wheat solid; */
+}
+
+body {
+    margin: 0%;
+    background: lightgray;
+}
+
+.banner img {
+    border-top: 5px wheat solid;
+    border-bottom: 5px wheat solid;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row .card {
+    box-shadow: 3px 4px wheat;
+    border: 5px wheat solid;
+    height: 10%;
+    background-color: white;
+    margin: 4%;
+    width: 400px;
+    border-radius: 2%;
+    height: 650px;
+}
+
+
+.card:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.03);
+}
+
+.row img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.card p {
+    color: black;
+    text-align: justify;
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+.navi {
+    margin: 20px 2%;
+    height: 20px;
+}
+
+.navi a {
+    font-size: large;
+    color: rgb(81, 179, 81);
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.navi a:hover {
+    text-decoration: underline;
+}
+
+.navi img {
+    margin-left: 10px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0 18px;
+}
